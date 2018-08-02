@@ -1,0 +1,19 @@
+{
+  "name": "template-mantilas-app",
+  "version": "0.1.0",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-if": "^2.0.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-responsive": "^2.11.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sftp": "^0.1.5",
+    "gulp-uglify": "^3.0.1",
+    "gulp-uncss": "^1.0.6",
+    "gulp-useref": "^3.1.5",
+    "wiredep": "^4.0.0"
+  }
+}
