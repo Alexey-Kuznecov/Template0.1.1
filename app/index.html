@@ -5,7 +5,7 @@
    <title>Template by Mantilas (npm, gulp, bower)</title>
    <!-- build:css css/vendor.css -->
    <!-- bower:css -->
-   <link rel="stylesheet" href="bower_components/tooltipster/dist/css/tooltipster.bundle.css" />
+   <link rel="stylesheet" href="bower/bootstrap/dist/css/bootstrap.css" />
    <!-- endbower -->
    <!-- endbuild -->
    <!-- build:css css/main.css -->
@@ -14,13 +14,30 @@
 </head>
 <body>
    <h1>Template by Mantilas</h1>
-   <form action="">
-      <button class="btn">Button</button>
-   </form>
+   <!-- Стандартная кнопка -->
+   <button type="button" class="btn btn-default">Default</button>
+
+   <!-- Обеспечивает дополнительную визуальный вес и идентифицирует основное действие в набор кнопок -->
+   <button type="button" class="btn btn-primary">Primary</button>
+
+   <!-- Указывает на успешное или позитивные действия -->
+   <button type="button" class="btn btn-success">Success</button>
+
+   <!-- Контекстуальные кнопка для информационных сообщений о сигналах тревоги -->
+   <button type="button" class="btn btn-info">Info</button>
+
+   <!-- Указывает, что следует проявлять осторожность с этим действием -->
+   <button type="button" class="btn btn-warning">Warning</button>
+
+   <!-- Указывает на опасное или потенциально негативное действие -->
+   <button type="button" class="btn btn-danger">Danger</button>
+
+   <!-- Преуменьшить роль кнопки, сделав его похожим на ссылку, сохраняя поведение кнопки -->
+   <button type="button" class="btn btn-link">Link</button>
    <!-- build:js scripts/vendor.js -->
    <!-- bower:js  -->
-   <script src="bower_components/jquery/dist/jquery.js"></script>
-   <script src="bower_components/tooltipster/dist/js/tooltipster.bundle.js"></script>
+   <script src="bower/jquery/dist/jquery.js"></script>
+   <script src="bower/bootstrap/dist/js/bootstrap.js"></script>
    <!-- endbower -->
    <!-- endbuild -->
    <!-- build:js scripts/main.js -->

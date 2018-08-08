@@ -60,7 +60,7 @@ gulp.task('uncss', function () {
 gulp.task('bower', function () {
   gulp.src('./app/index.html')
     .pipe(wiredep({
-      directory : "./app/bower_components"
+      directory : "./app/bower"
     }))
     .pipe(gulp.dest('./app'));
 });
@@ -129,7 +129,7 @@ gulp.task('clean', function () {
 /// ЗАДАЧА: СОБРАТЬ ПРОЕКТ
 ///
 ///////////////////////////////////////////////////////////////
-gulp.task('build', ['clean','uncss','build:font-img'], function () {
+gulp.task('build', ['clean','uncss'], function () {
     // Сборка html, css и js файлов
     var build = gulp.src('app/*.html')
         .pipe(useref())
